@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Học Tập</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://cdn-1.webcatalog.io/catalog/aternos/aternos-icon-filled-256.png?v=1714773275807" alt="">
+            <h1>Lớp Học Thầy ĐanhToán</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#subjects">Danh Mục +</a></li>
+                <li><a href="#about">Tài liệu</a></li>
+                <li><a href="#about">Thanh toán</a></li>
+            </ul>
+        </nav>
+    </header>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Toán</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-top: 10px solid red;
+            border-bottom: 10px solid red;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p {
+            font-style: italic;
+            color: gray;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Khoá học gồm mọi thứ tốt nhất dành cho 2k7 2k8</h1>
+    <p>Cung cấp toàn bộ giáo trình và tài liệu môn toán lớp 11-12</p>
+    <div class="buttons">
+        <a href="#">Facebook</a>
+        <a href="#">Thầy Nguyễn Đức Anh Youtube</a>
+        <a href="#">Đăng kí Học</a>
+    </div>
+</div>
+
+</body>
+</html>
+ <h2>Danh Mục Khoá Học</h2>
+    <div class="document-list">
+       
+        <div class="document">
+            <button onclick="toggleDropdown('math')">Toán 11</button>
+            <div id="math-dropdown" class="dropdown-content">
+               <a href="#">Chương 1: Hàm số lượng giác và phương trình lượng giác</a>
+                <a href="#">Chương 2: Tổ hợp và xác suất</a>
+                <a href="#">Chương 3: Dãy số, cấp số cộng và cấp số nhân</a>
+                    <a href="#">Chương 4: Giới hạn và Đạo hàm</a>
+            </div>
+        </div>
+
+     
+        <div class="document">
+            <button onclick="toggleDropdown('literature')">Toán 12</button>
+            <div id="literature-dropdown" class="dropdown-content">
+                <a href="#">Chương 1: Ứng dụng đạo hàm để khảo sát và vẽ đồ thị hàm số</a>
+                <a href="#">Chương 2: Vectơ và hệ trục tọa độ trong không gian</a>
+                <a href="#">Chương 3: Các số đặc trưng đo mức độ phân tán của mẫu số liệu ghép nhóm</a>
+                    <a href="#">Chương 4:Nguyên hàm và tích phân</a>
+                      <a href="#">Chương 5: Phương trình mặt phẳng, đường thẳng, mặt cầu trong không gian</a>
+                        <a href="#">Chương 6: Một số yếu tố xác suất</a>
+            </div>
+        </div>
+
+       
+        <div class="document">
+            <button onclick="toggleDropdown('english')">Video chữa đề</button>
+            <div id="english-dropdown" class="dropdown-content">
+                <a href="#">Toán thi Đại Học</a>
+                <a href="#">Toán nâng cao</a>
+                <a href="#">Toán tư duy</a>
+            </div>
+        </div>
+    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học Toán</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-top: 10px solid red;
+            border-bottom: 10px solid red;
+            max-width: 900px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p {
+            font-style: italic;
+            color: gray;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+        .buttons a {
+            text-decoration: none;
+            background-color: green;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .documents {
+            margin-top: 30px;
+            text-align: left;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .documents h2 {
+            color: black;
+            text-align: center;
+        }
+        .documents ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .documents ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .documents ul li a {
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+<div class="documents">
+    <h2>Tài liệu học tập</h2>
+    <ul>
+        <li><a href="#">📘 File sách Toán 11</a></li>
+        <li><a href="#">📕 File sách toán 12</a></li>
+        <li><a href="#">📗 Tổng hợp công thức Toán Học</a></li>
+        <li><a href="#">📙 Bài tập nâng cao</a></li>
+        <li><a href="#">📒 Đề thi thử các năm</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
+    <section id="about" class="section">
+        <h2>Giới Thiệu</h2>
+        <p>Trang web được thiết kế để hỗ trợ học sinh học tập hiệu quả với các bài giảng và tài liệu chất lượng.</p>
+
+    <!-- Thông tin - Điều khoản -->
+    <section id="about" class="section">
+        <h2>Thông Tin - Điều Khoản</h2>
+        <p>> Giới thiệu</p>
+        <p>> Câu hỏi thường gặp</p>
+        <p>> Điều khoản dịch vụ</p>
+        <p>> Hướng dẫn thanh toán</p>
+        <p>> Cộng tác viên</p>
+        <p>> Chính sách bảo mật</p> <iframe width="560" height="315" src="https://www.youtube.com/embed/nRn5IMMlvfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Trang Web Học Tập. Bảo lưu mọi quyền.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+<link rel="stylesheet" href="styles.css">
